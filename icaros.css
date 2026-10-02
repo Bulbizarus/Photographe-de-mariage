@@ -51,7 +51,7 @@
 .intro .script{margin-bottom:20px}
 h1{font-size:clamp(38px,4.2vw,56px);margin-bottom:24px}
 h2,.approach h2,.reviews h2,.contact h2{font-size:clamp(32px,3.2vw,42px);line-height:1.2;margin-bottom:28px}
-.button{min-height:56px;padding:16px 26px;gap:24px}
+.button{min-height:44px;padding:8px 18px;gap:16px}
 .approach{grid-template-columns:repeat(2,minmax(0,1fr));gap:64px}
 .approach-image{max-width:280px;height:420px}
 .approach-copy{width:100%;max-width:420px;justify-self:center}
@@ -71,8 +71,8 @@ h2,.approach h2,.reviews h2,.contact h2{font-size:clamp(32px,3.2vw,42px);line-he
 .review-grid article .text-link{font-size:10px;letter-spacing:1px}
 .review-controls{margin-top:20px}
 .review-note{margin-top:28px}
-.contact{grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;padding:64px max(var(--page-gutter),calc((100% - var(--content-width))/2))}
-.contact>img{width:240px;max-width:100%;height:336px;justify-self:center}
+.contact{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;padding:40px max(var(--page-gutter),calc((100% - var(--content-width))/2))}
+.contact>img{width:100%;max-width:520px;height:auto;aspect-ratio:16/9;object-fit:cover;justify-self:center}
 .contact>div{width:100%;max-width:420px;padding:0;justify-self:center}
 .contact p{margin-bottom:26px}
 .site-footer{max-width:1200px;padding:48px var(--page-gutter) 28px;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
@@ -92,7 +92,7 @@ h2,.approach h2,.reviews h2,.contact h2{font-size:clamp(32px,3.2vw,42px);line-he
  .menu-toggle span{margin-left:6px;font-size:16px}
  .intro{padding-top:48px;padding-bottom:56px}
  .intro .script{font-size:15px}
- .button{max-width:100%;font-size:9px;letter-spacing:1px;padding:15px 20px;gap:18px;min-height:52px}
+ .button{max-width:100%;font-size:9px;letter-spacing:1px;padding:8px 16px;gap:14px;min-height:44px}
  .approach,.contact{grid-template-columns:minmax(0,1fr);gap:32px;text-align:center}
  .approach-image{max-width:220px;height:330px}
  .approach-copy{max-width:440px}
@@ -102,8 +102,8 @@ h2,.approach h2,.reviews h2,.contact h2{font-size:clamp(32px,3.2vw,42px);line-he
  .review-score strong{font-size:40px;padding-right:16px}
  .review-score div{max-width:210px;line-height:1.6}
  .review-grid article{flex-basis:100%;min-height:250px;padding:26px}
- .contact{padding:48px var(--page-gutter)}
- .contact>img{width:200px;height:280px}
+ .contact{padding:32px var(--page-gutter);gap:24px}
+ .contact>img{width:100%;height:auto}
  .site-footer{grid-template-columns:1fr;gap:24px;text-align:center;padding:40px 24px 24px}
  .site-footer>p{grid-column:1;grid-row:auto}
  .site-footer>a:last-of-type{text-align:center}
